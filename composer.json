@@ -1,0 +1,29 @@
+{
+    "name": "eugenekkh/wkhtmltopdf",
+    "description": "Convert html to pdf using webkit (qtwebkit). Static linked linux binary for arm64 and amd64 systems.",
+    "keywords": ["pdf", "snapshot", "wkhtmltopdf", "convert", "binary"],
+    "license": "LGPL-3.0-only",
+    "homepage": "http://wkhtmltopdf.org/",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Evgeny Kukharik",
+            "email": "jonegkk9@gmail.com"
+        },
+        {
+            "name": "Julius Beckmann",
+            "email": "github@h4cc.de"
+        }
+    ],
+    "bin": [
+        "bin/wkhtmltopdf-amd64",
+        "bin/wkhtmltopdf-arm64"
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Eugenekkh\\WKHTMLToPDF\\": ""
+        }
+    }
+}
